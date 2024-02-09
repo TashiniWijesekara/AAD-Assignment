@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="unnamed2">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed2</output-path>
+    <root id="root">
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="lib2" />
+        <element id="library" level="project" name="lib" />
+        <element id="archive" name="AAD assignment1 javaee.jar">
+          <element id="module-output" name="AAD assignment1 javaee" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/gson-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/BackEnd-POS/lib/javax.annotation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

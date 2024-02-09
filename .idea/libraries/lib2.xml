@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/guava-32.1.3-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/mysql-connector-java-8.0.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/checker-qual-3.37.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/servlet-api-0.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/javax.json-1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/failureaccess-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/error_prone_annotations-2.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/javax.json-api-1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/jakarta.ws.rs-api-2.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/org.eclipse.jdt.annotation-2.2.800.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/lombok (1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/j2objc-annotations-2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/lib/javax.annotation-api-1.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

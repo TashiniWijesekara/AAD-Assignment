@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="dbcp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/lib/dbcp/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/lib/dbcp/commons-dbcp2-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/lib/dbcp/commons-pool2-2.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/checker-qual-3.37.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/error_prone_annotations-2.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/failureaccess-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/gson-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/guava-32.1.3-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/j2objc-annotations-2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/jakarta.ws.rs-api-2.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.annotation-api-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/servlet-api-0.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AAD-Assignment---JavaEE/JavaEE-POS/back-end/src/lib/org.eclipse.jdt.annotation-2.2.800.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
