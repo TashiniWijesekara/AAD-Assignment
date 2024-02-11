@@ -91,16 +91,16 @@
         </div>
     </div>
 
-        <!-- Details box  -->
+        <!-- Details all tables  -->
         <div class="row justify-content-around" style="height: min-content">
 
             <!-- Invoice  Details Table  -->
-            <div class="col-10 col-md-5 col-lg-4 p-3 mt-3 rounded-3 sectionBorder" style="background-color: white">
+            <div class="col-10 col-md-5 col-lg-4 p-3 mt-1 rounded-3 sectionBorder" style="background-color: white">
                 <h5 class="text-center p-2 bg-secondary text-light rounded-3"  >Invoice Details</h5>
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="orderId">Order ID :</label>
-                        <input class="form-control border-dark" disabled id="orderId" type="text" value="ODI-001">
+                        <input class="form-control border-dark"  id="orderId" type="text" value="OD001">
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="orderDate">Order Date :</label>
@@ -116,25 +116,25 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="customerName">Name :</label>
-                        <input class="form-control border-dark" disabled id="customerName" type="text">
+                        <input class="form-control border-dark"  id="customerName" type="text">
                     </div>
                 </div>
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="customerAddress">Address :</label>
-                        <input class="form-control border-dark" disabled id="customerAddress" type="text">
+                        <input class="form-control border-dark"  id="customerAddress" type="text">
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="customerSalary">Salary :</label>
-                        <input class="form-control border-dark" disabled id="customerSalary" type="text">
+                        <input class="form-control border-dark"  id="customerSalary" type="text">
                     </div>
                 </div>
             </div>
 
 
             <!--  Item Details Table  -->
-            <div class="col-10 col-md-5 col-lg-4 p-3 mt-3 rounded-3 sectionBorder" style="background-color: white">
-                <h5 class="text-center p-2 bg-secondary text-light rounded-3" style="background: #16A085">Item Details</h5>
+            <div class="col-10 col-md-5 col-lg-4 p-3 mt-1 rounded-3 sectionBorder" style="background-color: white">
+                <h5 class="text-center p-2 bg-secondary text-light rounded-3" >Item Details</h5>
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="cmbItemCode">Item Code :</label>
@@ -144,17 +144,17 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="itemName">Item Name :</label>
-                        <input class="form-control border-dark" disabled id="itemName" type="text">
+                        <input class="form-control border-dark"  id="itemName" type="text">
                     </div>
                 </div>
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="itemPrice">Unit Price :</label>
-                        <input class="form-control border-dark" disabled id="itemPrice" type="text">
+                        <input class="form-control border-dark"  id="itemPrice" type="text">
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="qtyOnHand">Qty On Hand :</label>
-                        <input class="form-control border-dark" disabled id="qtyOnHand" type="text">
+                        <input class="form-control border-dark"  id="qtyOnHand" type="text">
                     </div>
                 </div>
                 <div class="row mt-1">
@@ -163,20 +163,21 @@
                         <input class="form-control border-dark" id="buyQty" type="text">
                         <strong class="control-error" id="lblCheckQty"></strong>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6 mt-4 ">
+                    <div class="text-end">
                         <button class="btn btn-primary rounded-2" id="btnAddToCart" type="button">Add To Cart</button>
+
                     </div>
                 </div>
             </div>
 
 
             <!-- Payment Details Table -->
-            <div class="col-10 col-md-5 col-lg-3 p-3 mt-3 rounded-3 sectionBorder" style="background-color: white">
+            <div class="col-10 col-md-5 col-lg-3 p-3 mt-1 rounded-3 sectionBorder" style="background-color: white">
                 <h5 class="text-center bg-secondary p-2 text-light rounded-3">Payment Details</h5>
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="txtTotal">Total :</label>
-                        <input class="form-control border-dark" disabled id="txtTotal" type="number">
+                        <input class="form-control border-dark"  id="txtTotal" type="number">
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="txtDiscount">Discount :</label>
@@ -187,7 +188,7 @@
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="txtSubTotal">Sub Total :</label>
-                        <input class="form-control border-dark" disabled id="txtSubTotal" type="number">
+                        <input class="form-control border-dark"  id="txtSubTotal" type="number">
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="txtCash">Cash :</label>
@@ -199,23 +200,21 @@
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="txtBalance">Balance :</label>
-                        <input class="form-control border-dark" disabled id="txtBalance" type="number">
+                        <input class="form-control border-dark"  id="txtBalance" type="number">
                     </div>
+<!--                    cancel / Purchase button-->
 
-<!--                    cancel / Place Order button-->
-
-                    <div class="text-center mt-2">
-                        <button class="btn btn-danger " id="btnCancelPlaceOrder" type="button">Cancel</button>
-                        <button class="btn btn-success " id="btnPlaceOrder" type="button">Purchase</button>
+                    <div class="text-end" >
+                        <button class="btn btn-primary rounded-2" id="btnPurchase" type="submit">Purchase</button>
+                        <button class="btn btn-danger rounded-2" id="btnClearAll" type="button">Clear All</button>
                     </div>
                 </div>
             </div>
 
-
             <!-- View Cart Details Table  -->
-            <div class="row mt-1 mt-md-2 mt-lg-3 justify-content-around" style="height: 210px;">
-                <div class="col-11 justify-content-around sectionBorder" style="height: 200px; background: white">
-                    <div class="PlaceOrderTableDiv overflow-auto" style="height: 265px;">
+            <div class="row mt-1 mt-md-2 mt-lg-3 justify-content-around">
+                <div class="col-11 justify-content-around sectionBorder" style="height: 220px; background: white">
+                    <div class="PlaceOrderTableDiv overflow-auto" style="height: 230px;">
                         <table class="table  bg-success table-striped table-bordered table-hover">
                             <thead class="text-light table- text-center  table-bordered sticky-top">
                             <tr>
