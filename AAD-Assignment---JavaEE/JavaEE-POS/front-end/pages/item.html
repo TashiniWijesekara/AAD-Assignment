@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>item</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <!--link Bootstrap Framework-->
     <link href="../assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/styles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="../assets/styles/sweetalert2-11.6.16/sweetalert2.min.css" rel="stylesheet">
@@ -13,7 +12,7 @@
 <body>
 
 <header>
-    <!--Nav started-->
+<!--    Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-success shadow-lg posNavi position-relative rounded-bottom">
         <div class="container-fluid">
             <a class="navbar-brand text-light fw-bold " href="#">
@@ -56,13 +55,13 @@
             </div>
         </div>
     </nav>
-    <!--Nav ended-->
+<!--    Nav ended-->
 </header>
 
 <!-- Item Start-->
 <main class="container-fluid" id=ItemSection>
 
-    <!--    2nd nav bar-->
+<!--        2nd nav bar-->
     <nav>
         <div class="position-relative d-inline-block mt-4 mt-lg-3 mt-md-4">
             <h2 id="H1-1" style="font-family: 'Arial Rounded MT Bold',serif"><i
@@ -75,18 +74,18 @@
                 <h6 id="H6-1">Home > Item</h6>
             </ul>
         </div>
-        <!--        <hr>-->
+<!--                <hr>-->
     </nav>
 
-    <!--    2nd nav bar end-->
 
-        <!-- Item Details Section Start -->
+
+<!--         Item Details Section  -->
         <div class="row justify-content-around" style="height: max-content">
 
-            <!-- Item Details Search Section Start -->
-            <div class="col-10 col-md-6 col-lg-5 p-0 mt-5 rounded-3 sectionBorder"
+<!--             Item Details Search Section  -->
+            <div class="col-10 col-md-6 col-lg-5 p-0 mt-2 rounded-3 sectionBorder"
                  style="background-color: white; height: max-content">
-                <h4 class="text-center p-2 text-light rounded-3" style="background: #16A085">Manage Item</h4>
+                <h4 class="text-center p-2 text-light rounded-3 bg-success" >Manage Item</h4>
 
                 <div class="mb-3 ms-3 me-3 mt-3 ">
                     <label class="fw-bold" for="ItemIdSearch">Search Item :</label>
@@ -94,8 +93,8 @@
                            placeholder="Input Name/Code/Tp Here"
                            type="search">
                 </div>
-                <div class="m-4">
-                    <button class="btn btn-success mt-2 m-1" id="btnAddItem" type="button">+ New Item
+                <div class="m-4 text-end" >
+                    <button class="btn btn-primary mt-2 m-1" id="btnAddItem" type="button"> New Item
                     </button>
 
                     <button class="btn btn-warning mt-2 m-1" id="btnUpdateItem" type="button">Update Item
@@ -105,47 +104,47 @@
                     </button>
                 </div>
             </div>
-            <!-- Item Details Search Section End -->
-            <!-- Item Details Search Section Start -->
-            <div class="col-10 col-md-5 col-lg-4 p-0 mt-2 rounded-3 sectionBorder" style="background-color: white">
+
+<!--             Item Details Search Section  -->
+            <div class="col-10 col-md-5 col-lg-4 p-0 mt-0 rounded-3 sectionBorder" style="background-color: white">
 
                 <form action="item" id="itemForm">
-                    <div class="mb-3 ms-3 me-3 mt-3 ">
+                    <div class="mb-3 ms-3 me-3 mt-2 ">
                         <label class="fw-bold" for="txtItemID">Item Code :</label>
                         <input class="form-control" id="txtItemID" name="code" type="text">
                         <span class="control-error"></span>
                     </div>
 
-                    <div class="mb-3 ms-3 me-3 mt-3 ">
+                    <div class="mb-3 ms-3 me-3 mt-2 ">
                         <label class="fw-bold" for="txtItemName">Item Name :</label>
                         <input class="form-control " id="txtItemName" name="description" type="text">
                         <span class="control-error"></span>
                     </div>
 
-                    <div class="mb-3 ms-3 me-3 mt-3 ">
+                    <div class="mb-3 ms-3 me-3 mt-2 ">
                         <label class="fw-bold" for="txtItemQty">Item Qty :</label>
                         <input class="form-control " id="txtItemQty" name="qty" type="text">
                         <span class="control-error"></span>
                     </div>
 
-                    <div class="mb-3 ms-3 me-3 mt-3 ">
+                    <div class="mb-3 ms-3 me-3 mt-2 ">
                         <label class="fw-bold" for="txtItemPrice">Item Price :</label>
                         <input class="form-control " id="txtItemPrice" name="unitPrice" type="text">
                         <span class="control-error"></span>
                     </div>
                 </form>
             </div>
-            <!-- Item Details Search Section End -->
-        </div>
-        <!-- Item Details Section End -->
 
-        <!-- View Item Details Table Start -->
+        </div>
+
+
+<!--         View Item Details Table  -->
 
         <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around " style="height: 320px;">
-            <div class="col-11 justify-content-around sectionBorder" style="height: 290px; background: white">
+            <div class="col-10 justify-content-around sectionBorder" style="height: 290px; background: white">
                 <div class="ItemTableDiv overflow-auto" style="height: 270px;">
                     <table class="table table-success table-striped table-bordered table-hover">
-                        <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                        <thead class="text-dark table-light text-center  table-bordered sticky-top">
                         <tr>
                             <th>Item Code</th>
                             <th>Item Name</th>
@@ -158,7 +157,7 @@
                 </div>
             </div>
         </div>
-        <!-- View Item Details Table End -->
+
 
 </main>
 <!-- Item End-->

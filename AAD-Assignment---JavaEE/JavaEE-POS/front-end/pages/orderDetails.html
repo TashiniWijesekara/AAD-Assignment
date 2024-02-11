@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>OrderDetails</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <!--link Bootstrap Framework-->
     <link href="../assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/styles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="../assets/styles/style.css" rel="stylesheet">
@@ -12,7 +11,7 @@
 <body>
 
 <header>
-    <!--Nav started-->
+    <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-success shadow-lg posNavi position-relative rounded-bottom">
         <div class="container-fluid">
             <a class="navbar-brand text-light fw-bold " href="#">
@@ -55,10 +54,10 @@
             </div>
         </div>
     </nav>
-    <!--Nav ended-->
+
 </header>
 
-<!-- OrderDetails Start-->
+<!-- OrderDetails -->
 <main class="container-fluid" id="OrderDetails">
 
 <!--    2nd nav bar-->
@@ -77,23 +76,23 @@
 <!--        <hr>-->
     </nav>
 
-    <!--    2nd nav bar end-->
 
-        <!-- Order Details Section Start -->
+
+        <!-- Order Details Section  -->
         <div class="row justify-content-around" style="height: max-content">
 
             <div class="row justify-content-evenly h-50">
 
                 <!-- Table Order -->
                 <section
-                        class="d-flex flex-column h-100 col-10 col-xl-11 shadow-lg rounded-3 align-items-center pt-3 mt-1 mb-3 sectionBorder "
+                        class="d-flex flex-column h-100 col-10 col-xl-11 shadow-lg  align-items-center pt-3 mt-1 mb-3 sectionBorder "
                         style="background: white">
-                    <h4 class="text-center p-2 text-light rounded-5 col-12 ubFt" style="background: dimgray">Orders</h4>
-                    <!--  Orders Table Start -->
-                    <div class="col-11 justify-content-around " style="height: 230px;">
+                    <h4 class="text-center p-1 text-dark "style="font-family: 'Arial Rounded MT Bold',serif">Orders</h4>
+                    <!--  Orders Table  -->
+                    <div class="col-11 justify-content-around  " style="height: 230px;">
                         <div class="PlaceOrderTableDiv overflow-auto" style="height: 230px;">
                             <table class="table table-success table-striped table-bordered table-hover">
-                                <thead class="text-dark table-light text-center  table-bordered sticky-top">
+                                <thead class="table-secondary text-dark  text-center  table-bordered sticky-top">
                                 <tr>
                                     <th>Order Id</th>
                                     <th>Order Date</th>
@@ -106,18 +105,16 @@
                     </div>
                 </section>
 
-
                 <!-- Order Details Table-->
                 <section
                         class="d-flex flex-column h-100 col-10 col-xl-11 shadow-lg rounded-3 align-items-center pt-3 sectionBorder "
                         style="background: white">
-                    <h4 class="text-center  p-2 text-light rounded-5 col-12 " style="background: dimgray">Orders
-                        Details</h4>
+                    <h4 class="text-center  p-1 text-dark " style="font-family: 'Arial Rounded MT Bold',serif">Orders Details</h4>
 
-                    <div class="col-11 justify-content-around " style="height: 195px;">
-                        <div class="PlaceOrderTableDiv overflow-auto" style="height: 200px;">
-                            <table class="table table-success table-striped table-bordered table-hover">
-                                <thead class="text-dark table-light text-center  table-bordered sticky-top">
+                    <div class="col-11 justify-content-around " style="height: 210px;">
+                        <div class=" PlaceOrderTableDiv overflow-auto" style="height: 200px;">
+                            <table class="table table-success  table-striped table-bordered table-hover">
+                                <thead class="table-secondary text-dark text-center  table-bordered sticky-top">
                                 <tr>
                                     <th>Order Id</th>
                                     <th>Item Code</th>

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Customer</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <!--link Bootstrap Framework-->
     <link href="../assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/styles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="../assets/styles/sweetalert2-11.6.16/sweetalert2.min.css" rel="stylesheet">
@@ -13,7 +12,7 @@
 <body>
 
 <header>
-    <!--Nav started-->
+<!--    Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-success shadow-lg posNavi position-relative rounded-bottom">
         <div class="container-fluid">
             <a class="navbar-brand text-light fw-bold " href="#">
@@ -56,12 +55,13 @@
             </div>
         </div>
     </nav>
-    <!--Nav ended-->
+
 </header>
 
-<!-- Customer Start-->
+<!-- Customer -->
 <main class="container-fluid" id="CustomerSection">
-    <!--    2nd nav bar-->
+
+<!--        2nd nav bar-->
     <nav>
         <div class="position-relative d-inline-block mt-4 mt-lg-3 mt-md-4">
             <h2 id="H1-3" style="font-family: 'Arial Rounded MT Bold',serif"><i class="bi bi-people"></i> Customer
@@ -73,26 +73,25 @@
                 <h6 id="H6">Home > Customer</h6>
             </ul>
         </div>
-        <!--        <hr>-->
+
     </nav>
 
-    <!--    2nd nav bar end-->
 
-        <!-- Customer Details Section Start -->
+<!--     Customer Details Section  -->
         <div class="row justify-content-around " style="height: max-content">
 
-            <!-- Customer Details Search Section Start -->
+<!--             Customer Details Search Section  -->
             <div class="col-10 col-md-6 col-lg-5 p-0 mt-5 rounded-3 sectionBorder"
                  style="background-color: white;height: max-content ">
-                <h4 class="text-center p-2 text-light rounded-3" style="background: #16A085">Manage Customer</h4>
+                <h4 class="text-center p-2 text-light rounded-3 bg-success" >Manage Customer</h4>
 
                 <div class="mb-3 ms-3 me-3 mt-3 ">
                     <label class="fw-bold" for="searchCusId">Search Customer :</label>
                     <input class="form-control me-2 mt-2" id="searchCusId" placeholder="Input Name/NIC/Tp Here"
                            type="search">
                 </div>
-                <div class="m-4">
-                    <button class="btn btn-success mt-2 m-2" id="btnSaveCustomer" type="button">+ New Customer
+                <div class="m-4 text-end">
+                    <button class="btn btn-primary mt-2 m-2" id="btnSaveCustomer" type="button"> New Customer
                     </button>
 
                     <button class="btn btn-warning mt-2 m-2" id="btnUpdateCustomer" type="button">Update Customer
@@ -103,9 +102,9 @@
 
                 </div>
             </div>
-            <!-- Customer Details Search Section End -->
 
-            <!-- Customer Details Search Section Start -->
+
+<!--             Customer Details Search Section  -->
             <div class="col-10 col-md-5 col-lg-4 p-0 mt-2 rounded-3 sectionBorder" style="background-color: white">
 
                 <form action="customer" id="customerForm">
@@ -135,17 +134,17 @@
                 </form>
 
             </div>
-            <!-- Customer Details Search Section End -->
+
 
         </div>
-        <!-- Customer Details Section End -->
 
-        <!-- View Customer Details Table Start -->
-        <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 320px;">
-            <div class="col-11 justify-content-around sectionBorder" style="height: 290px; background: white">
+
+<!--         View Customer Details Table  -->
+        <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 210px;">
+            <div class="col-11 justify-content-around sectionBorder" style="height: 200px; background: white">
                 <div class="customerTableDiv overflow-auto" style="height: 270px;">
                     <table class="table table-success table-striped table-bordered table-hover">
-                        <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                        <thead class="text-dark table-light text-center  table-bordered sticky-top">
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
@@ -157,10 +156,11 @@
                     </table>
                 </div>
             </div>
+
         </div>
-        <!-- View Customer Details Table End -->
+
 </main>
-<!-- Customer End-->
+
 
 <!--Import js for bootstrap-->
 <script src="../assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
