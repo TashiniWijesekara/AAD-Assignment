@@ -105,32 +105,49 @@
 
 
 <!--             Customer Details Search Section  -->
-            <div class="col-10 col-md-5 col-lg-4 p-0 mt-2 rounded-3 sectionBorder" style="background-color: white">
+            <div class="col-10 col-md-4 col-lg-6 p-0 mt-2 rounded-3 sectionBorder" style="background-color: white">
 
                 <form action="customer" id="customerForm">
-                    <div class="mb-3 ms-3 me-3 mt-3 ">
-                        <label class="fw-bold" for="txtCusId">Customer ID :</label>
-                        <input class="form-control" id="txtCusId" type="text" name="id">
-                        <span class="control-error"></span>
+                    <div class="row mb-3">
+                        <div class="row mb-3 ms-3 me-3 mt-1">
+                            <label class="col-sm-3 col-form-label fw-bold" for="txtCusId">Customer ID :</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" id="txtCusId" name="id" type="text">
+                                <span class="control-error"></span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="mb-3 ms-3 me-3 mt-3 ">
-                        <label class="fw-bold" for="txtCusName">Customer Name :</label>
-                        <input class="form-control" id="txtCusName" type="text" name="name">
-                        <span class="control-error"></span>
+                    <div class="row mb-3">
+                        <div class="row mb-3 ms-3 me-3 mt-1">
+                            <label class="col-sm-3 col-form-label fw-bold" for="txtCusName">Customer Name :</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" id="txtCusName" name="name" type="text">
+                                <span class="control-error"></span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="mb-3 ms-3 me-3 mt-3 ">
-                        <label class="fw-bold" for="txtCusAddress">Customer Address :</label>
-                        <input class="form-control" id="txtCusAddress" type="text" name="address">
-                        <span class="control-error"></span>
+                    <div class="row mb-3">
+                        <div class="row mb-3 ms-3 me-3 mt-1">
+                            <label class="col-sm-3 col-form-label fw-bold" for="txtCusAddress">Customer Address :</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" id="txtCusAddress" name="address" type="text">
+                                <span class="control-error"></span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="mb-3 ms-3 me-3 mt-3 ">
-                        <label class="fw-bold" for="txtCustomerSalary">Customer Salary :</label>
-                        <input class="form-control" id="txtCustomerSalary" type="text" name="salary">
-                        <span class="control-error"></span>
+                    <div class="row mb-3">
+                        <div class="row mb-3 ms-3 me-3 mt-1">
+                            <label class="col-sm-3 col-form-label fw-bold" for="txtCustomerSalary">Customer Salary :</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" id="txtCustomerSalary" name="salary" type="text">
+                                <span class="control-error"></span>
+                            </div>
+                        </div>
                     </div>
+
                 </form>
 
             </div>
@@ -143,8 +160,8 @@
         <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 210px;">
             <div class="col-11 justify-content-around sectionBorder" style="height: 200px; background: white">
                 <div class="customerTableDiv overflow-auto" style="height: 270px;">
-                    <table class="table table-success table-striped table-bordered table-hover">
-                        <thead class="text-dark table-light text-center  table-bordered sticky-top">
+                    <table class="table table-secondary table-striped table-bordered table-hover">
+                        <thead class="text-dark  text-center  table-bordered sticky-top">
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
