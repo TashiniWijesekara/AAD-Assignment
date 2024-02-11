@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>OrderDetails</title>
@@ -26,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-10">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item" id="homeBtn">
                         <a aria-current="page" class="nav-link link-light active" href="../index.html">Home</a>
                     </li>
@@ -60,24 +60,24 @@
 
 <!-- OrderDetails Start-->
 <main class="container-fluid" id="OrderDetails">
-    <!-- Order Header Start -->
-    <div class="container d-flex flex-grow-1 flex-column">
+
+<!--    2nd nav bar-->
+    <nav>
         <div class="position-relative d-inline-block mt-4 mt-lg-3 mt-md-4">
             <h2 id="H1" style="font-family: 'Arial Rounded MT Bold',serif"><i
                     class="bi bi-cart-check"></i> Orders View
             </h2>
-        </div>
-    </div>
-    <!-- Order Header End -->
 
-    <!-- big box -->
-    <div class="container d-flex flex-grow-1 shadow-lg flex-column sectionBorder"
-         style="background-color: white; height: max-content">
-        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
-            <h6 id="H6-4">Home > Orders Details</h6>
-            <hr>
         </div>
-        <!-- Order Header Section End -->
+        <div class="position-relative d-inline-block mt-4 mt-lg-3 mt-md-4">
+            <ul>
+            <h6 id="H6-4">Home > Orders Details</h6>
+            </ul>
+        </div>
+<!--        <hr>-->
+    </nav>
+
+    <!--    2nd nav bar end-->
 
         <!-- Order Details Section Start -->
         <div class="row justify-content-around" style="height: max-content">
@@ -136,7 +136,7 @@
 
         </div>
 
-    </div>
+
 </main>
 
 
