@@ -26,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-10">
                     <li class="nav-item" id="homeBtn">
                         <a aria-current="page" class="nav-link link-light active" href="../index.html">Home</a>
                     </li>
@@ -45,10 +45,10 @@
 
                 </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-outline-light btn-m" type="button"><i class="fa-solid fa-user-plus"></i>
+                    <button class="btn btn-outline-light rounded-5 btn-m" type="button"><i class="fa-solid fa-user-plus"></i>
                         Sign Up
                     </button>
-                    <button class="btn btn-outline-dark" type="button"><i
+                    <button class="btn btn-outline-light rounded-5" type="button"><i
                             class="fa-solid fa-right-from-bracket"></i> Log Out
                     </button>
                 </div>
@@ -62,7 +62,7 @@
 <main class="container-fluid" id="OrderDetails">
     <!-- Order Header Start -->
     <div class="container d-flex flex-grow-1 flex-column">
-        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+        <div class="position-relative d-inline-block mt-4 mt-lg-3 mt-md-4">
             <h2 id="H1" style="font-family: 'Arial Rounded MT Bold',serif"><i
                     class="bi bi-cart-check"></i> Orders View
             </h2>
@@ -70,9 +70,9 @@
     </div>
     <!-- Order Header End -->
 
-    <!-- Order Header Section Start -->
-    <div class="container d-flex flex-grow-1 flex-column sectionBorder"
-         style="background-color: #dfe4ea;height: max-content">
+    <!-- big box -->
+    <div class="container d-flex flex-grow-1 shadow-lg flex-column sectionBorder"
+         style="background-color: white; height: max-content">
         <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
             <h6 id="H6-4">Home > Orders Details</h6>
             <hr>
@@ -86,14 +86,14 @@
 
                 <!-- Table Order -->
                 <section
-                        class="d-flex flex-column h-100 col-10 col-xl-11 shadow-lg rounded-3 align-items-center pt-3 mt-2 mb-4 sectionBorder "
+                        class="d-flex flex-column h-100 col-10 col-xl-11 shadow-lg rounded-3 align-items-center pt-3 mt-1 mb-3 sectionBorder "
                         style="background: white">
-                    <h4 class="text-center p-2 text-light rounded-5 col-12 ubFt" style="background: #16A085">Orders</h4>
-                    <!-- View Orders Table Start -->
+                    <h4 class="text-center p-2 text-light rounded-5 col-12 ubFt" style="background: dimgray">Orders</h4>
+                    <!--  Orders Table Start -->
                     <div class="col-11 justify-content-around " style="height: 250px;">
                         <div class="PlaceOrderTableDiv overflow-auto" style="height: 230px;">
                             <table class="table table-success table-striped table-bordered table-hover">
-                                <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                                <thead class="text-dark table-light text-center  table-bordered sticky-top">
                                 <tr>
                                     <th>Order Id</th>
                                     <th>Order Date</th>
@@ -105,19 +105,19 @@
                         </div>
                     </div>
                 </section>
-                <!-- View Orders Table End -->
 
-                <!-- Table Order Details-->
+
+                <!-- Order Details Table-->
                 <section
                         class="d-flex flex-column h-100 col-10 col-xl-11 shadow-lg rounded-3 align-items-center pt-3 sectionBorder "
                         style="background: white">
-                    <h4 class="text-center  p-2 text-light rounded-5 col-12 " style="background: #16A085">Orders
+                    <h4 class="text-center  p-2 text-light rounded-5 col-12 " style="background: dimgray">Orders
                         Details</h4>
-                    <!-- View Order Details Table Start -->
-                    <div class="col-11 justify-content-around " style="height: 250px;">
-                        <div class="PlaceOrderTableDiv overflow-auto" style="height: 230px;">
+
+                    <div class="col-11 justify-content-around " style="height: 200px;">
+                        <div class="PlaceOrderTableDiv overflow-auto" style="height: 200px;">
                             <table class="table table-success table-striped table-bordered table-hover">
-                                <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                                <thead class="text-dark table-light text-center  table-bordered sticky-top">
                                 <tr>
                                     <th>Order Id</th>
                                     <th>Item Code</th>
@@ -130,15 +130,15 @@
                         </div>
                     </div>
                 </section>
-                <!-- View Order Details Table End -->
+
 
             </div>
 
         </div>
-        <!-- Order Details Section End -->
+
     </div>
 </main>
-<!-- OrderDetails End-->
+
 
 <!--Import js for bootstrap-->
 <script src="../assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
