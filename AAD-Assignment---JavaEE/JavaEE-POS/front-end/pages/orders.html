@@ -10,6 +10,11 @@
     <link href="../assets/styles/sweetalert2-11.6.16/sweetalert2.min.css" rel="stylesheet">
     <link href="../assets/styles/style.css" rel="stylesheet">
 
+    <style>
+        #HomeSection img {
+            height: 55vh;
+        }
+    </style>
 </head>
 <body>
 
@@ -45,12 +50,13 @@
                         <a class="nav-link link-light" href="orderDetails.html">Order Details</a>
                     </li>
 
+<!--                    login /log out-->
                 </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-outline-primary btn-m" type="button"><i class="fa-solid fa-user-plus"></i>
+                    <button class="btn btn-outline-light btn-m" type="button"><i class="fa-solid fa-user-plus"></i>
                         Sign Up
                     </button>
-                    <button class="btn btn-outline-secondary" type="button"><i
+                    <button class="btn btn-outline-dark" type="button"><i
                             class="fa-solid fa-right-from-bracket"></i> Log Out
                     </button>
                 </div>
@@ -60,9 +66,9 @@
     <!--Nav ended-->
 </header>
 
-<!-- OrderFrom Start-->
+<!-- OrderFrom -->
 <main class="container-fluid" id="OrderSection">
-    <!-- Order Header Start -->
+    <!-- Order Header  -->
     <div class="container d-flex flex-grow-1 flex-column">
         <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
             <h2 id="H1-2" style="font-family: 'Arial Rounded MT Bold',serif"><i
@@ -70,22 +76,22 @@
             </h2>
         </div>
     </div>
-    <!-- Order Header End -->
 
-    <!-- Order Header Section Start -->
+
+    <!-- Order Header -->
     <div class="container d-flex flex-grow-1 flex-column sectionBorder" style="background-color: #dfe4ea">
         <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
             <h6 id="H6-2">Home > Place Order</h6>
             <hr>
         </div>
-        <!-- Order Header Section End -->
 
-        <!-- Order Details Section Start -->
+
+        <!-- Details box  -->
         <div class="row justify-content-around" style="height: min-content">
 
-            <!-- Order Invoice Details Section Start -->
+            <!-- Invoice  Details Table  -->
             <div class="col-10 col-md-5 col-lg-4 p-3 mt-3 rounded-3 sectionBorder" style="background-color: white">
-                <h5 class="text-center p-2 text-light rounded-3" style="background: #16A085">Invoice Details</h5>
+                <h5 class="text-center p-2 bg-secondary text-light rounded-3"  style="background: #16A085">Invoice Details</h5>
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="orderId">Order ID :</label>
@@ -119,11 +125,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Order Invoice Details Section End -->
 
-            <!-- Order Item Details Section Start -->
+
+            <!--  Item Details Table  -->
             <div class="col-10 col-md-5 col-lg-4 p-3 mt-3 rounded-3 sectionBorder" style="background-color: white">
-                <h5 class="text-center p-2 text-light rounded-3" style="background: #16A085">Item Details</h5>
+                <h5 class="text-center p-2 bg-secondary text-light rounded-3" style="background: #16A085">Item Details</h5>
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
                         <label class="fw-bold" for="cmbItemCode">Item Code :</label>
@@ -157,9 +163,9 @@
                     </div>
                 </div>
             </div>
-            <!-- Order Item Details Section End -->
 
-            <!-- Order Details Section Start -->
+
+            <!-- Payment Details Table -->
             <div class="col-10 col-md-5 col-lg-3 p-3 mt-3 rounded-3 sectionBorder" style="background-color: white">
                 <h5 class="text-center bg-secondary p-2 text-light rounded-3">Payment Details</h5>
                 <div class="row mt-1">
@@ -190,26 +196,23 @@
                         <label class="fw-bold" for="txtBalance">Balance :</label>
                         <input class="form-control border-dark" disabled id="txtBalance" type="number">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6 mt-4">
-                        <button class="btn btn-success rounded-2" id="btnPurchase" type="submit">Purchase</button>
+
+<!--                    cancel / Place Order button-->
+
+                    <div class="text-center mt-2">
+                        <button class="btn btn-danger " id="btnCancelPlaceOrder" type="button">Cancel</button>
+                        <button class="btn btn-success " id="btnPlaceOrder" type="button">Purchase</button>
                     </div>
                 </div>
             </div>
-            <!-- Order Details Section End -->
 
-            <!--clear All Button Section Start-->
-            <div class="d-grid col-12 col-md-2 mt-4">
-                <button class="btn btn-danger rounded-2 bold sectionBorder" id="btnClearAll" type="button">Clear All
-                </button>
-            </div>
-            <!--clear All Button Section end-->
 
-            <!-- View Cart Details Table Start -->
-            <div class="row mt-1 mt-md-2 mt-lg-3 justify-content-around" style="height: 315px;">
-                <div class="col-11 justify-content-around sectionBorder" style="height: 285px; background: white">
+            <!-- View Cart Details Table  -->
+            <div class="row mt-1 mt-md-2 mt-lg-3 justify-content-around" style="height: 210px;">
+                <div class="col-11 justify-content-around sectionBorder" style="height: 200px; background: white">
                     <div class="PlaceOrderTableDiv overflow-auto" style="height: 265px;">
-                        <table class="table table-success table-striped table-bordered table-hover">
-                            <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                        <table class="table  bg-success table-striped table-bordered table-hover">
+                            <thead class="text-light table- text-center  table-bordered sticky-top">
                             <tr>
                                 <th>Item Code</th>
                                 <th>Item Name</th>
@@ -223,13 +226,13 @@
                     </div>
                 </div>
             </div>
-            <!-- View Cart Details Table End -->
+
 
         </div>
         <!-- Order Details Section End -->
     </div>
 </main>
-<!-- OrderFrom End-->
+
 
 <!--Import js for bootstrap-->
 <script src="../assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
