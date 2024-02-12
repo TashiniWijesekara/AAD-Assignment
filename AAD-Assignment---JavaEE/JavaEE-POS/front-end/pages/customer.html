@@ -81,9 +81,9 @@
         <div class="row justify-content-around " style="height: max-content">
 
 <!--             Customer Details Search Section  -->
-            <div class="col-10 col-md-6 col-lg-5 p-0 mt-1 rounded-3 sectionBorder"
+            <div class="col-10 col-md-6 col-lg-5 p-0 mt-2 rounded-3 sectionBorder"
                  style="background-color: white;height: max-content ">
-                <h4 class="text-center p-2 text-light rounded-3 bg-success" >Manage Customer</h4>
+                <h4 class="text-center p-2 fw-normal text-light rounded-0 bg-success" style="font-size: 1.2em" >Customer Search</h4>
 
                 <div class="mb-3 ms-3 me-3 mt-3 ">
                     <label class="fw-bold" for="searchCusId">Search Customer :</label>
@@ -105,7 +105,7 @@
 
 
 <!--             Customer Details   -->
-            <div class="col-10 col-md-4 col-lg-6 p-0 mt-2 rounded-3 sectionBorder" style="background-color: white">
+            <div class="col-10 col-md-4 col-lg-6 p-0 mt-0 rounded-3 sectionBorder" style="background-color: white">
 
                 <form action="customer" id="customerForm">
                     <div class="row mb-3">
@@ -158,15 +158,15 @@
 
 <!--         View Customer Details Table  -->
         <div class="row mt-1 mt-md-2 mt-lg-4 justify-content-around" style="height: 220px;">
-            <div class="col-11 justify-content-around sectionBorder" style="height: 220px; background: white">
+            <div class="col-12 justify-content-around sectionBorder" style="height: 220px; background: white">
                 <div class="customerTableDiv overflow-auto" style="height: 230px;">
-                    <table class="table table-secondary table-striped table-bordered table-hover">
-                        <thead class="text-dark  text-center  table-bordered sticky-top">
+                    <table class="table  bg-success table-striped table-bordered table-hover">
+                        <thead class="text-light  text-center  table-bordered sticky-top" style="font-size: 1.1em">
                         <tr>
-                            <th>ID</th>
-                            <th>Name</th>
-                            <th>Address</th>
-                            <th>Salary</th>
+                            <th class="fw-normal">ID</th>
+                            <th class="fw-normal">Name</th>
+                            <th class="fw-normal">Address</th>
+                            <th class="fw-normal">Salary</th>
                         </tr>
                         </thead>
                         <tbody id="customerTable"></tbody>

@@ -83,7 +83,7 @@
 <!--             Item Details Search Section  -->
             <div class="col-10 col-md-6 col-lg-5 p-0 mt-2 rounded-3 sectionBorder"
                  style="background-color: white; height: max-content">
-                <h4 class="text-center p-2 text-light rounded-3 bg-success" >Manage Items</h4>
+                <h4 class="text-center fw-normal p-2 text-light rounded-0 bg-success" style="font-size: 1.2em">Items Search</h4>
 
                 <div class="mb-3 ms-3 me-3 mt-3 ">
                     <label class="fw-bold" for="ItemIdSearch">Search Item :</label>
@@ -109,7 +109,7 @@
 
                 <form action="item" id="itemForm">
                     <div class="row mb-3">
-                        <div class="row mb-3 ms-3 me-3 mt-4">
+                        <div class="row mb-3 ms-3 me-3 mt-1">
                             <label class="col-sm-3 col-form-label fw-bold" for="txtItemID">Item Code :</label>
                             <div class="col-sm-8">
                                 <input class="form-control" id="txtItemID" name="code" type="text">
@@ -157,15 +157,15 @@
 <!--         View Item Details Table  -->
 
         <div class="row mt-1 mt-md-2 mt-lg-3 justify-content-around " style="height: 220px;">
-            <div class="col-11 justify-content-around sectionBorder" style="height: 230px; background: white">
+            <div class="col-12 justify-content-around sectionBorder" style="height: 230px; background: white">
                 <div class="ItemTableDiv overflow-auto" style="height: 220px;">
-                    <table class="table table-secondary table-striped table-bordered table-hover">
-                        <thead class="text-dark  text-center  table-bordered sticky-top">
-                        <tr>
-                            <th>Item Code</th>
-                            <th>Item Name</th>
-                            <th>Quantity</th>
-                            <th>Price</th>
+                    <table class="table  bg-success table-striped table-bordered table-hover">
+                        <thead class="text-light  text-center fw-normal table-bordered sticky-top" style="font-size: 1.1em">
+                        <tr >
+                            <th class="fw-normal">Item Code</th>
+                            <th class="fw-normal">Item Name</th>
+                            <th class="fw-normal">Quantity</th>
+                            <th class="fw-normal">Price</th>
                         </tr>
                         </thead>
                         <tbody id="ItemTable"></tbody>
