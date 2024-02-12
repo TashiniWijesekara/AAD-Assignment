@@ -20,3 +20,9 @@ This POS System is created by using Bootstrap framework , HTML , CSS for Fronten
 - JDK 11
 - MySQL Server 8.0 or newer
 - Apache Maven 3.6.0 or newer
+
+## Features
+- CRUD operations for products, orders, and customers.
+- In-memory storage for fast and efficient data access.
+- JNDI for resource lookup and connection pooling.
+- JSON format for data exchange.
